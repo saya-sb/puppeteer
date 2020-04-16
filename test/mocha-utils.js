@@ -58,6 +58,7 @@ const defaultBrowserOptions = {
   slowMo: false,
   headless: isHeadless,
   dumpio: !!process.env.DUMPIO,
+  pipe: process.platform === 'win32'
 };
 
 
